@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("photo.jpg") center center fixed no-repeat;;
+    background-size: cover;
+    
+}
+.navbar{
+    display: block;
+    height: 60px;
+    color: rgb(0, 0, 0);
+    border: rgb(251, 255, 0) solid 0px;
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+    text-align: center;
+    font-size: 30px;
+}
+.navbar button{
+    color: rgb(3, 3, 3);
+    float: right;
+    margin-right: 20px;
+    font-size: 28px;
+    bottom: 0px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 15px;
+    font-weight: bold;
+}
+.navbar h1{
+    margin-top: 6px;
+}
+hr{
+    margin-top: 80px;
+}
+.sidebar{
+    text-align: center;
+    margin-top: 3%;
+    float: left;
+    width:20%;
+    height: 550px;
+    border-radius: 50px;
+}
+.sidebar button{
+    display: block;
+    cursor: pointer;
+    background-color:rgb(0, 0, 0);
+    margin-top:5px;
+    padding: 6px 10px;
+    height: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    word-wrap: break-word;
+    margin-left: 50px;
+    font-size: 20px;
+    width: 60%;
+}
+.context{
+    flex: 1;
+    margin-right: 1%;
+    width: 75%;
+    height: 550px;
+    margin-top: 49px;
+    float: left;
+    overflow-x: scroll; 
+    border: black solid 2px;
+    border-radius: 20px;
+
+    
+/*     background-color: rgba(255, 255, 255, 0.712); */
+}
+.context table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+/* 	margin: 45px; */
+	width:100%;
+	text-align: left;
+	border-collapse: collapse;
+	position: relative;
+    
+}
+
+.context th {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	background: #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+}
+
+.context td {
+	padding: 8px;
+	background: #c8c8c8a5; 
+	border-bottom: 1px solid #fff;
+	color: rgb(0, 0, 0);
+	border-top: 1px solid transparent;
+}
+
+.context tr:hover td {
+	background: #d0dafd;
+	color: #339;
+}
+.sqlContentBox{
+
+    margin-right: 45px;
+    width: 75%;
+    height: 500px;
+    margin-top: 0px;
+    float: right;
+    display: flex;
+}
+
+td a{
+    background-color: lightgray;
+    width: auto;
+    border:black solid 2px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+td button{
+    background-color: #00000000;
+    border: none;
+    
+}
+th{
+    white-space: nowrap;
+}
